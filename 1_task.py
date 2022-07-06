@@ -1,4 +1,6 @@
 def task(array):
+    '''Поиск в строке индекса, где происходит смена числа'''
+
     array = [i for i in array]
     start_symb = array[0]
     index = 1

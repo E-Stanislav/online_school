@@ -1,4 +1,6 @@
 def appearance(intervals):
+    '''Поиск общего времени нахождения на уроке и учителя и ученика'''
+
     pupl, tuto = [], []
     lesson = [i for i in range(intervals['lesson'][0], intervals['lesson'][1])]
     for i in range(0, len(intervals['pupil']), 2):
